@@ -1,0 +1,50 @@
+.modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.modal_popup {
+  min-width: 25%;
+  width: 25%;
+  max-width: 80%;
+  background-color: white;
+  padding: calc(var(--kk-unit) * 30);
+  border-radius: calc(var(--kk-unit) * 6);
+}
+.closeModal {
+  padding: calc(var(--kk-unit) * 10);
+  background-color: red;
+  cursor: pointer;
+  z-index: 10;
+}
+.modal_popup h2 {
+  font-size: calc(var(--kk-unit) * 20);
+}
+.popup-text {
+  padding: calc(var(--kk-unit) * 20) 0;
+  max-width: calc(var(--kk-unit) * 500);
+  line-height: calc(var(--kk-unit) * 25);
+  font-size: calc(var(--kk-unit) * 20);
+  font-weight: 600;
+  text-align: center;
+  margin-block: calc(var(--kk-unit) * 10);
+}
+.popup-buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: calc(var(--kk-unit) * 10);
+}
+
+.delete-Modal-img {
+  margin: auto;
+}

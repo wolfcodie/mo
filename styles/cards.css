@@ -1,0 +1,65 @@
+.grid-list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: calc(var(--kk-unit) * 20) calc(var(--kk-unit) * 30);
+}
+.card {
+  width: 32%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: calc(var(--kk-unit) * 10);
+  padding: calc(var(--kk-unit) * 20);
+}
+.card-small {
+  width: 20%;
+}
+.card-small h6 {
+  font-size: calc(var(--kk-unit) * 12);
+}
+.person-img {
+  height: calc(var(--kk-unit) * 40);
+  width: calc(var(--kk-unit) * 40);
+  border-radius: 100%;
+}
+.action > button {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-small .action img {
+  height: calc(var(--kk-unit) * 16);
+  width: calc(var(--kk-unit) * 16);
+  border-radius: 100%;
+}
+
+.action img {
+  height: calc(var(--kk-unit) * 20);
+  width: calc(var(--kk-unit) * 20);
+  border-radius: 100%;
+}
+.user-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.user-info article:first-child {
+  padding: calc(var(--kk-unit) * 5);
+  border-radius: calc(var(--kk-unit) * 5);
+  width: 100%;
+
+  justify-content: center;
+}
+.user-info article {
+  padding: calc(var(--kk-unit) * 5);
+  border-radius: calc(var(--kk-unit) * 5);
+  justify-content: space-between;
+}
+@media (max-width: 480px) {
+  .card {
+    width: 100%;
+  }
+}

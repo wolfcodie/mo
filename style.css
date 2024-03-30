@@ -1,0 +1,87 @@
+@import url("./styles/buttons.css");
+@import url("./styles/cards.css");
+@import url("./styles/sidebar.css");
+@import url("./styles/modal.css");
+@import url("./styles/spacing.css");
+:root {
+  --kk-unit: 0.065vw;
+}
+* {
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+
+  font-size: calc(var(--kk-unit) * 14);
+  line-height: calc(var(--kk-unit) * 31);
+  position: relative;
+  outline: none !important;
+  box-sizing: border-box;
+  margin: 0;
+}
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.flex-column {
+  flex-direction: column;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: font-size 0.3s linear;
+  font-weight: 700;
+}
+.border {
+  border: 1px solid lightgray;
+}
+.icon-s {
+  height: calc(var(--kk-unit) * 20);
+  width: calc(var(--kk-unit) * 20);
+}
+.icon-black {
+  filter: invert(1.2);
+}
+button:hover,
+a:hover {
+  opacity: 0.9;
+}
+big {
+  width: 20px;
+}
+input {
+  border: 1px solid lightgray;
+  outline: none;
+}
+a {
+  cursor: pointer;
+  transition: font-size 0.3s linear;
+  text-decoration: none;
+}
+p {
+  font-size: calc(var(--kk-unit) * 13);
+  line-height: calc(var(--kk-unit) * 15);
+  color: rgb(137, 137, 137);
+}
+.buttons_section {
+  display: flex;
+  align-items: center;
+  padding: calc(var(--kk-unit) * 31);
+  gap: 20px;
+}
+.main {
+  min-height: 100vh;
+  width: 100%;
+}
+@media (max-width: 480px) {
+  :root {
+    --kk-unit: 0.24132vw;
+  }
+}

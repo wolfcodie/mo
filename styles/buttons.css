@@ -1,0 +1,74 @@
+.largeButton {
+  background-color: rgb(109, 64, 255);
+  font-size: calc(var(--kk-unit) * 20);
+  padding: calc(var(--kk-unit) * 10) calc(var(--kk-unit) * 31);
+  border-radius: calc(var(--kk-unit) * 5);
+  color: white;
+}
+.mediumButton {
+  background-color: rgb(109, 64, 255);
+  font-size: calc(var(--kk-unit) * 15);
+  padding: calc(var(--kk-unit) * 6) calc(var(--kk-unit) * 25);
+  border-radius: calc(var(--kk-unit) * 5);
+  color: white;
+}
+.icon-Button-Large {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: calc(var(--kk-unit) * 5);
+  background-color: rgb(109, 64, 255);
+  font-size: calc(var(--kk-unit) * 15);
+  padding: calc(var(--kk-unit) * 10) calc(var(--kk-unit) * 20);
+  border-radius: calc(var(--kk-unit) * 5);
+  color: white;
+}
+.icon-Button-small {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: calc(var(--kk-unit) * 5);
+  background-color: rgb(109, 64, 255);
+  font-size: calc(var(--kk-unit) * 15);
+  padding: calc(var(--kk-unit) * 6) calc(var(--kk-unit) * 10);
+  border-radius: calc(var(--kk-unit) * 5);
+  color: white;
+}
+.iconButton {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: calc(var(--kk-unit) * 5);
+  background-color: rgb(109, 64, 255);
+  font-size: calc(var(--kk-unit) * 15);
+  padding: calc(var(--kk-unit) * 10) calc(var(--kk-unit) * 20);
+  border-radius: calc(var(--kk-unit) * 5);
+  color: white;
+}
+.button-outline {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: transparent !important;
+  color: rgb(0, 0, 0);
+}
+
+.icon-s {
+  height: calc(var(--kk-unit) * 20);
+  width: calc(var(--kk-unit) * 20);
+}
+.popup-buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: calc(var(--kk-unit) * 20);
+}
+.popup-buttons > button {
+  width: 50%;
+}
+.deleteModal {
+  background-color: red !important;
+  color: white;
+}
+.SidebarBtn {
+  background-color: rgb(5, 255, 130) !important;
+  color: white;
+}

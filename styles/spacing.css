@@ -1,0 +1,30 @@
+.my-1 {
+  margin-block: calc(var(--kk-unit) * 10);
+}
+.my-2 {
+  margin-block: calc(var(--kk-unit) * 20);
+}
+.mt-1 {
+  margin-top: calc(var(--kk-unit) * 10);
+}
+.mt-2 {
+  margin-top: calc(var(--kk-unit) * 20);
+}
+.mb-1 {
+  margin-bottom: calc(var(--kk-unit) * 10);
+}
+.mt-auto {
+  margin-top: auto;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.mr-auto {
+  margin-right: auto;
+}
+.mb-auto {
+  margin-bottom: auto;
+}
+.gap-1 {
+  gap: calc(var(--kk-unit) * 10);
+}
